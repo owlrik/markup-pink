@@ -429,9 +429,7 @@ function mapHandler() {
   'use strict';
 
   var navigationMenu = document.querySelector('.main-nav');
-  var navigationMenuBurger = navigationMenu.querySelector('.main-nav__trigger'); // TODO: вынести из этого скрипта в секцию head
-
-  navigationMenu.classList.remove('main-nav--no-js');
+  var navigationMenuBurger = navigationMenu.querySelector('.main-nav__trigger');
 
   var onTriggerClick = function onTriggerClick(evt) {
     evt.preventDefault();
