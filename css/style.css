@@ -396,7 +396,9 @@ body {
   line-height: 24px;
   font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
   color: #283645;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 img {
   max-width: 100%;
